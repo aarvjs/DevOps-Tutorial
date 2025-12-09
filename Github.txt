@@ -1,0 +1,265 @@
+# Git & GitHub Documentation
+
+# ⭐ 1. Version Control System (VCS)=========================================================================================
+
+A Version Control System helps you track changes in your code, go back to old versions, and work with teams.
+
+---
+
+# ⭐ 2. What is Git?======================================================================================================
+
+Git is a version control tool that tracks changes, allows branching, merging, and collaborating.
+
+---
+
+# ⭐ 3. What is GitHub?============================================================================================================
+
+GitHub is an online platform where you store your Git repositories. You can push, pull, create branches, review code, and work with teams.
+
+---
+
+# ⭐ 4. Git Setup========================================================================================================
+
+```
+git --version
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+---
+
+# ⭐ 5. Repository Commands===================================================================================================
+
+### Create a Repo
+
+```
+git init
+```
+
+### Connect to Remote==========
+
+```
+git remote add origin <url>
+```
+
+### Check Remote=====
+
+```
+git remote -v
+```
+
+### Clone Repo========
+
+```
+git clone <url>
+```
+
+---
+
+# ⭐ 6. Staging Area Commands=================================================================================================
+
+### Add Files
+
+```
+git add file.txt
+git add .
+```
+
+### Check Status========
+
+```
+git status
+
+---
+
+# ⭐ 7. Commit Commands=======================================================================================================
+
+### Commit Changes
+
+```
+git commit -m "message"
+```
+
+### Update Last Commit
+
+```
+git commit --amend
+```
+
+### View Commit History
+
+```
+git log
+```
+
+---
+
+# ⭐ 8. Branch Commands=======================================================================================================
+
+### Create Branch
+
+```
+git branch dev
+```
+
+### Switch Branch
+
+```
+git switch dev
+```
+
+### Create + Switch
+
+```
+git checkout -b feature
+```
+
+### Delete Branch
+
+```
+git branch -d dev
+```
+
+### List Branches
+
+```
+git branch
+```
+
+---
+
+# ⭐ 9. Merge Commands================================================================================================================
+
+### Merge a Branch
+
+```
+git switch main
+git merge dev
+
+---
+
+# ⭐ 10. Push & Pull Commands==================================================================================================
+
+### Push Code
+
+```
+git push -u origin main
+git push
+```
+
+### Pull Updates
+
+```
+git pull
+```
+
+### Fetch Updates
+
+```
+git fetch
+```
+
+---
+
+# ⭐ 11. Reset & Restore Commands=================================================================================================
+
+### Restore File
+
+```
+git restore file.txt
+```
+
+### Unstage File
+
+```
+git restore --staged file.txt
+```
+
+### Soft Reset
+
+```
+git reset --soft HEAD~1
+```
+
+### Hard Reset
+
+```
+git reset --hard HEAD~1
+```
+
+### Revert Commit
+
+```
+git revert <commit-id>
+
+---
+
+# ⭐ 12. Gitignore==========================================================================================================
+
+Used to ignore files you don’t want tracked.
+
+```
+node_modules/
+.env
+*.log
+```
+
+---
+
+# ⭐ 13. Git Aliases=======================================================================================================
+
+Shortcuts to save time.
+
+```
+git config --global alias.st status
+git config --global alias.cm "commit -m"
+git config --global alias.br branch
+git config --global alias.co checkout
+```
+
+---
+
+# ⭐ 14. Important Concepts====================================================================================================
+
+### Remote → GitHub link
+
+### Origin → Default remote name
+
+### HEAD → Current branch pointer
+
+### Working Directory → Your project folder
+
+### Staging Area → Files ready to commit
+
+---
+
+# ⭐ 15. Useful Extra Commands============================================================================================
+
+### Differences
+
+```
+git diff
+```
+
+### Remove File
+
+```
+git rm file.txt
+```
+
+### Move/Rename
+
+```
+git mv old.txt new.txt
+```
+
+### Stash Work
+
+```
+git stash
+```
+
+### Restore Stashed Work
+
+```
+git stash pop
+```
