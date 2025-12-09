@@ -1,0 +1,133 @@
+===========================================
+            DEVOPS DOCUMENTATION
+===========================================
+
+
+1. **What is DevOps?**
+
+DevOps is a combination of Development and Operations practices that improves collaboration, automation, and continuous delivery of software.  
+Its goal is to deliver software faster, more reliably, and with higher quality using automation, CI/CD, cloud, containers, and monitoring.
+
+
+2. **Why DevOps?**
+
+- Faster development & deployment
+- Automation of repetitive tasks
+- Reliable infrastructure
+- Improved collaboration between teams
+- Better scalability using cloud
+- Continuous monitoring & feedback
+
+
+===========================================
+        DEVOPS COMPLETE ROADMAP
+===========================================
+
+
+3. **Version Control Systems**
+   - Git
+   - GitHub
+   - GitLab
+   - Bitbucket
+   - Branching, Merging, Pull Requests
+   - Merge Conflicts Handling
+
+
+4. **Operating System (Linux)**
+   - Basic Commands
+   - File System
+   - Permissions
+   - SSH
+   - Networking Basics (Ports, DNS, IP)
+   - Shell Scripting (Bash)
+
+
+5. **Containerization**
+   - Docker
+   - Images & Containers
+   - Dockerfile
+   - Docker Compose
+   - Container Registry (DockerHub / GitHub Container Registry)
+
+
+6. **Container Orchestration**
+   - Kubernetes
+   - Pods
+   - Deployments
+   - Services
+   - Ingress
+   - ConfigMaps & Secrets
+   - Helm Charts
+
+
+7. **Cloud Providers**
+   - AWS (Most Important)
+   - Azure
+   - Google Cloud (GCP)
+
+   **Important Cloud Services:**
+   - EC2
+   - S3
+   - IAM
+   - VPC
+   - Load Balancers
+   - CloudWatch (Monitoring)
+   - Lambda (Serverless)
+
+
+8. **CI/CD (Continuous Integration & Deployment)**
+   - GitHub Actions
+   - Jenkins
+   - GitLab CI/CD
+   - Build → Test → Deploy Automation
+   - Artifact Management
+
+
+9. **Infrastructure as Code (IaC)**
+   - Terraform
+   - CloudFormation (optional)
+   - Infrastructure provisioning through code
+
+
+10. **Configuration Management**
+    - Ansible
+    - Automated setup & server configuration
+
+
+11. **Monitoring & Logging**
+    - Grafana
+    - System Metrics & Application Monitoring
+
+
+12. **Networking & Security Basics**
+    - Firewalls
+    - Load Balancers
+    - SSL Certificates
+    - IAM
+    - Secrets Management (Vault, KMS)
+    - DevSecOps Basics
+
+
+13. **Build Tools (Optional but useful)**
+    - Maven
+    - Gradle
+    - NPM
+    - Yarn
+
+
+14. **Artifact/Package Management**
+    - Nexus Repository
+    - JFrog Artifactory
+    - GitHub Packages
+
+
+15. **Soft Skills for DevOps**
+    - Documentation
+    - Team Collaboration
+    - Problem Solving
+    - Automation Mindset
+
+
+===========================================
+           END OF DOCUMENT
+===========================================
